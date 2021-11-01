@@ -1,1 +1,0 @@
-(()=>{"use strict";document.querySelector("#root").innerHTML="안녕하세요. 저는 seeh_h입니다."})();

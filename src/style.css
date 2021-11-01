@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  color: white;
+}
+
+.avatar {
+  display: flex;
+  border: 1px solid grey;
+  align-items: center;
+  padding: 1rem;
+}
+
+.thumbnailImg {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
