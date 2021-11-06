@@ -5,11 +5,12 @@ const path = require('path');
 module.exports = merge(common, {
   mode: 'development',
 
-  // source-map t생성 방식
+  // source-map 생성 방식
   devtool: 'inline-source-map',
 
+  // devserver 설정
   devServer: {
-    historyApiFallback: true,
+    historyApiFallback: true, // 이상한
     static: {
       directory: path.resolve(__dirname, 'dist'),
     },

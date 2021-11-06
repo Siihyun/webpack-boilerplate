@@ -14,11 +14,12 @@ module.exports = {
     rules: [
       {
         // css 파일에 로더 적용
-        test: /\.css$/,
+        test: /\.css$/, // 확장자가 css파일들에 적용
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        //  오른쪽에서 왼쪽으로 적용됨
       },
       {
-        // 기타 파일에 로더 적용
+        // image 파일에 로더 적용
         test: /\.(png|jpe?g|gif|svg|ico)$/,
         use: [
           {
